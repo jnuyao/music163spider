@@ -1,3 +1,14 @@
 # 网易云音乐爬虫项目
-## todo
-- 云音乐mp3地址http://music.163.com/weapi/song/enhance/player/url?csrf_token=cd8543fa9c841d92cb49a660d9fb6fbf
+
+没有使用具体爬虫框架
+
+## 数据存放
+- Song歌曲表
+- PlayList歌单表
+- Comment评论
+- Commenter评论者
+
+## 爬虫过程
+- 通过歌单，爬取到音乐列表，50万首歌左右
+- 通过音乐id，爬取到音乐数据
+- 音乐页面找到评论接口，评论接口带上了评论数据与用户基本数据
